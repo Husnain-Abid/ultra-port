@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+
+}
+
+.header .mini-header {
+    height: 30px;
+    background-color: #373f47;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.header .mini-header .left .heading {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.header .mini-header .left .phone {
+    font-family: Poppins, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Oxygen, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 0 0 1rem;
+    text-decoration: none;
+    color: #89c600;
+}
+
+.header .mini-header .right .pay {
+    text-transform: uppercase;
+    white-space: normal;
+    color: #b4b9bb;
+    border-left: 2px solid #b4b9bb;
+    margin-left: 3rem;
+    padding-left: 3rem;
+}
+
+.header .mini-header .right .country {
+    font-family: Poppins, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Oxygen, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 0 0 1rem;
+    text-decoration: none;
+    color: #89c600;
+}
+
+.header .nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #101922;
+    border-bottom: 1px solid #5e646b;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.header .nav-bar .logo {
+    width: 200px;
+}
+
+.header .nav-bar .links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.header .nav-bar .buttons {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.header .nav-bar .buttons svg {
+    width: 26px;
+    height: 26px;
+}
